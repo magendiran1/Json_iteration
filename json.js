@@ -12,7 +12,7 @@ const getCountryListwisePolulation =()=>{
         for(var final in filterpolution)
     
         {
-            if(filterpolution[final].population>1000000) {
+            if(filterpolution[final].population>100000000) {
                 console.log(filterpolution[final].name,filterpolution[final].population)
             }
         }
